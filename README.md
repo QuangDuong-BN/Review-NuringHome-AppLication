@@ -17,9 +17,6 @@ Dự án bao gồm một **ứng dụng di động** cho người dùng và mộ
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/usecase.png)
 > *Biều đồ Use Case tổng quát.*
 
-![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
-> *Biều đồ Use Case tổng quát.*
-
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/database.png)
 > *Biểu đồ cơ sở dữ liệu.*
 
