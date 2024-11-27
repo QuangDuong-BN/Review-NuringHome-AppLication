@@ -28,8 +28,7 @@ Dự án bao gồm một **ứng dụng di động** cho người dùng và mộ
 ## Hình Ảnh Ứng Dụng
 
 ### Giao Diện Ứng Dụng Di Động
-![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
-> *Hình ảnh trên mô tả các giao diện chính của ứng dụng di động, bao gồm việc đặt lịch dịch vụ, theo dõi sức khỏe và gọi điện/video với nhân viên.*
+
 ![Giao diện ứng dụng di động 1](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image1.png)
 ![Giao diện ứng dụng di động 2](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image2.png)
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
