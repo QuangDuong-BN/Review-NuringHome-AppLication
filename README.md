@@ -56,6 +56,9 @@ Dự án bao gồm một **ứng dụng di động** cho người dùng và mộ
 
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/tuantu1.png)
 > *Biểu đồ tuần tự đăng kí sản phẩm dịch vụ.*
+
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/tuantu2.png)
+> *Biểu đồ tuần tự đăng kí lịch thăm người thân.*
 ## Hình Ảnh Ứng Dụng
 
 ### Giao Diện Ứng Dụng Di Động
