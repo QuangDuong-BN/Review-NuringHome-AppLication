@@ -2,10 +2,10 @@
 
 ## Liên Kết Dự Án
 
-- [Backend - Service 1](http://link-to-backend-service-1)
-- [Backend - Service 2](http://link-to-backend-service-2)
-- [Backend - Service 3](http://link-to-backend-service-3)
-- [Android Native App](http://link-to-android-native-app)
+- [NursingHome Backend - Service 1](https://github.com/QuangDuong-BN/NursingHome-Backend)
+- [Notification Service - Service 2](https://github.com/QuangDuong-BN/notification-service)
+- [Nursinghome Api Gateway](https://github.com/QuangDuong-BN/nursing-home-api-gateway)
+- [Android Native App](https://github.com/QuangDuong-BN/NursingHome-FE-Android)
 
 ## Giới Thiệu Dự Án
 
