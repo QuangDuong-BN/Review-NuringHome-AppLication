@@ -13,6 +13,40 @@
 
 Dự án bao gồm một **ứng dụng di động** cho người dùng và một **website quản lý** cho nhân viên, với khả năng giao tiếp giữa các microservices thông qua các API backend. Ứng dụng sử dụng Redis để quản lý phiên đăng nhập và OTP, kết hợp với Kafka cho giao tiếp giữa các dịch vụ.
 
+## Công Nghệ Sử Dụng
+
+**Mô Hình**: Microservices
+
+**Backend**: 
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+
+**Frontend**: 
+- HTML, CSS, JavaScript, Bootstrap
+
+**Android**: 
+- Android Native (Java)
+
+**DBMS**: 
+- MySQL
+
+**Công Nghệ Khác**: 
+- Redis
+- Kafka
+- Spring Cloud
+
+### **Redis**
+
+- Hệ thống triển khai **Token Versioning** để quản lý JWT, lưu trữ phiên bản token trong **Redis** và **Database**.  
+- Redis kết hợp cơ chế **TTL (Time-To-Live)** để quản lý blacklist token và mã OTP một cách hiệu quả. Các token bị thu hồi được lưu trong Redis với TTL tương ứng thời gian hết hạn, đảm bảo tự động xóa khi không còn cần thiết.  
+- Tương tự, mã OTP được lưu trữ trong Redis với TTL ngắn (ví dụ: 5 phút), đảm bảo mã chỉ có hiệu lực trong thời gian quy định và tự động xóa sau khi hết hạn.
+
+### **Kafka**
+
+- Các service trong hệ thống giao tiếp với **Notification Service** thông qua Kafka để sử dụng tính năng gửi email. Kafka giúp việc gửi email giữa các microservices diễn ra hiệu quả, hỗ trợ việc xử lý bất đồng bộ và đảm bảo tính mở rộng của hệ thống.
+
+
 ## Phân Tích Thiết Kế Hệ Thông
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/usecase.png)
 > *Biều đồ Use Case tổng quát.*
@@ -32,6 +66,20 @@ Dự án bao gồm một **ứng dụng di động** cho người dùng và mộ
 
 
 > *Hình ảnh trên mô tả các giao diện chính của ứng dụng di động, bao gồm việc đặt lịch dịch vụ, theo dõi sức khỏe và gọi điện/video với nhân viên.*
+
+![Giao diện ứng dụng di động 1](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image5.png)
+![Giao diện ứng dụng di động 2](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image6.png)
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image7.png)
+
+
+> *Giao diện theo dõi hoạt động, đặt lịch thăm và lịch sử đặt lịch thăm*
+
+![Giao diện ứng dụng di động 1](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image8.png)
+![Giao diện ứng dụng di động 2](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image9.png)
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image10.png)
+
+
+> *Giao diện liên lạc*
 
 ### Giao Diện Website Quản Lý Nhân Viên
 
