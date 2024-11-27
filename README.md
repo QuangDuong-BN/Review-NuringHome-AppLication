@@ -35,7 +35,7 @@ Dự án bao gồm một **ứng dụng di động** cho người dùng và mộ
 
 ### Giao Diện Website Quản Lý Nhân Viên
 
-![Giao diện website quản lý](image4.jpg)
+![Giao diện website quản lý](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image4.png)
 
 > *Hình ảnh trên mô tả giao diện website quản lý của nhân viên, nơi họ có thể theo dõi và điều phối các yêu cầu dịch vụ, đồng thời quản lý các hoạt động của trung tâm dưỡng lão.*
 
