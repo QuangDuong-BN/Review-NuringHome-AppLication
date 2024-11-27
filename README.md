@@ -13,10 +13,23 @@
 
 Dự án bao gồm một **ứng dụng di động** cho người dùng và một **website quản lý** cho nhân viên, với khả năng giao tiếp giữa các microservices thông qua các API backend. Ứng dụng sử dụng Redis để quản lý phiên đăng nhập và OTP, kết hợp với Kafka cho giao tiếp giữa các dịch vụ.
 
+## Phân Tích Thiết Kế Hệ Thông
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/usecase.png)
+> *Biều đồ Use Case tổng quát.*
+
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
+> *Biều đồ Use Case tổng quát.*
+
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/database.png)
+> *Biểu đồ cơ sở dữ liệu.*
+
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/tuantu1.png)
+> *Biểu đồ tuần tự đăng kí sản phẩm dịch vụ.*
 ## Hình Ảnh Ứng Dụng
 
 ### Giao Diện Ứng Dụng Di Động
-
+![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
+> *Hình ảnh trên mô tả các giao diện chính của ứng dụng di động, bao gồm việc đặt lịch dịch vụ, theo dõi sức khỏe và gọi điện/video với nhân viên.*
 ![Giao diện ứng dụng di động 1](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image1.png)
 ![Giao diện ứng dụng di động 2](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image2.png)
 ![Giao diện ứng dụng di động 3](https://github.com/QuangDuong-BN/save-image-for-repo/blob/main/nursinghome/image3.png)
