@@ -1,6 +1,6 @@
 # Ứng Dụng Đa Nền Tảng Cho Trung Tâm Dưỡng Lão
 
-## Liên Kết Dự Án (GitHub Repository)
+## Liên Kết Dự Án ( GitHub Repository )
 
 - [NursingHome Backend - Service 1](https://github.com/QuangDuong-BN/NursingHome-Backend)
 - [Notification Service - Service 2](https://github.com/QuangDuong-BN/notification-service)
